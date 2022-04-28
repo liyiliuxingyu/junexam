@@ -38,7 +38,7 @@
 % 实际上，在旧版本 ctex 中只能用 cs4size 和 c5size 选项
 % 而新版本 ctex 中，可以利用 zihao 选项指定各种中文字号
 \PassOptionsToPackage{CJKnumber}{xeCJK}
-\LoadClass[cs4size,UTF8,noindent]{ctexart}
+\LoadClass[zihao=-4,UTF8,noindent,fontset=windows]{ctexart}
 
 % 在旧版本 xeCJK 中，必须用 CJKnumber 选项载入 CJKnumb 包，后面才载入会报错
 % 但在新版本 xeCJK 中 CJKnumber 选项已经被废弃，需要在后面自行载入它
