@@ -108,7 +108,7 @@
 
 \ifplain\else
   \RequirePackage{tikz}
-  \RequirePackage{everypage}
+  \RequirePackage{everypage-1x}
 \fi
 
 \newcommand{\bindinglineleft}{
